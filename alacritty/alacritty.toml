@@ -1,0 +1,58 @@
+# Alacritty Configuration
+
+[window]
+decorations = "None"
+padding = { x = 15, y = 15 }
+opacity = 0.9
+
+[font]
+size = 14.0
+normal = { family = "AnnotationM NF", style = "Bold" }
+
+[colors]
+# Background is catpuccin macchiato base btw
+primary = { foreground = "#f1f1f1", background = "#24273a" }
+selection = { text = "#000000", background = "#ffffff" }
+
+[colors.normal]
+black = "#1d1d1d"
+red = "#f10000"
+green = "#00f100"
+yellow = "#f1f100"
+blue = "#00a0f1"
+magenta = "#f100f1"
+cyan = "#00f1f1"
+white = "#f1f1f1"
+
+[colors.bright]
+black = "#2f2f2f"
+red = "#ff9090"
+green = "#90ff90"
+yellow = "#ffff90"
+blue = "#9090ff"
+magenta = "#ff90ff"
+cyan = "#90ffff"
+white = "#ffffff"
+
+[colors.dim]
+black = "#000000"
+red = "#900000"
+green = "#009000"
+yellow = "#909000"
+blue = "#000990"
+magenta = "#900090"
+cyan = "#009090"
+white = "#909090"
+
+[cursor]
+style = { shape = "Underline", blinking = "Always" }
+blink_interval = 500
+blink_timeout = 0
+unfocused_hollow = false
+thickness = 0.20
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
