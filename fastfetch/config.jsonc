@@ -1,0 +1,25 @@
+{
+  "display": {
+    "percent": {
+      "type": 9,
+      "color": {
+        "green": "green",
+        "yellow": "light_yellow",
+        "red": "light_red"
+      }
+    }
+  },
+  "logo": {
+    "type": "small"
+  },
+  "modules": [
+    "os",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "memory",
+    "battery",
+    "break"
+  ]
+}
