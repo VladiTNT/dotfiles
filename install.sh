@@ -1,8 +1,8 @@
 #!/bin/bash
 # Variables
-NAME="Fastfetch"
-SRC="./fastfetch"
-TARGET="$HOME/.config/fastfetch"
+NAME=$1
+SRC=$2
+TARGET=$3
 # If there is a config file in target.
 if [ -d "$TARGET" ] || [ -L "$TARGET" ]; then
     # Format backup path

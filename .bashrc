@@ -16,6 +16,9 @@ shopt -s checkwinsize
 # Weapon of choice
 export EDITOR='nvim'
 
+# Use binaries custom binaries
+export PATH="$HOME/bin:$PATH"
+
 # Color codes for shell prompt
 COLOR_BASE="\[\e[96m\]"
 COLOR_USER="\[\e[91m\]"
