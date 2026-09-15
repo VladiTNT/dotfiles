@@ -7,7 +7,7 @@ These are my custom configuration files that I use for applications on my system
 <img src="examples/Terminal.png">
 
 ### neovim
-<img src="examples/NeoVim.png>
+<img src="examples/NeoVim.png">
 
 ## Makefile:
 The Makefile contains individual rules for each config if you only want to isntall one of the configs.
