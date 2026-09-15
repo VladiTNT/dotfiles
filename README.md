@@ -36,4 +36,4 @@ cp -rf "$SRC/." "$TARGET"
 echo "$NAME config installed!"
 ```
 
-Configurations that are installed in the **config path** of the user use this install script. It makes a backup if it finds an existing configuration at the path, so remember o clean those up if you run these commands a whole bunch of times.
+Configurations that are installed in the **config path** of the user use this install script. It makes a backup if it finds an existing configuration at the path, so remember to clean those up if you run these commands a whole bunch of times.
