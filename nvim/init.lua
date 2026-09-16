@@ -8,3 +8,4 @@ require('config.pack')
 -- Import Plugin Configuration --
 require('plugins.catppuccin')
 require('plugins.lualine')
+require('plugins.nvim-tree')

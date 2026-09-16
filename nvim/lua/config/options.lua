@@ -57,3 +57,7 @@ vim.o.wildmenu = true
 vim.o.wildmode = "longest:full,full"
 vim.o.showcmd = true
 vim.o.showmode = false
+
+-- File Manager
+vim.g.loaded_netrw = true
+vim.g.loaded_netrwPlugin = true
