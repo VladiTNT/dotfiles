@@ -171,8 +171,13 @@ vim.lsp.config('gopls', {
     filetypes = { 'go' },
 })
 
+vim.lsp.config('clangd', {
+    cmd = { 'clangd-22' },
+    filetypes = { 'cpp', 'hpp' }
+})
+
 -- Enable LSPs --
-vim.lsp.enable({ 'gopls' })
+vim.lsp.enable({ 'gopls', 'clangd' })
 
 -- AutoComplete from LSP Callback --
 vim.api.nvim_create_autocmd('LspAttach', {
