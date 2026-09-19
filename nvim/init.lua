@@ -19,7 +19,7 @@ vim.opt.expandtab = true
 
 -- Cursor --
 vim.opt.scrolloff = 8
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 
 -- Window Split --
 vim.opt.splitbelow = true
