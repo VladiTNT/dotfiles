@@ -46,6 +46,7 @@ alias lcf="ls -CF"
 alias df="df -h"
 alias free="free -m"
 
+alias q="exit"
 alias c="clear"
 alias h="history"
 alias myip="curl ifconfig.me && echo"
