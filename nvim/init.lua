@@ -13,5 +13,5 @@ require('config.pack')
 require('plugins.catppuccin')
 require('plugins.lualine')
 
--- Language Server --
-require('lsp.lsp')
+-- Language Servers --
+vim.lsp.enable({'gopls', 'clangd'})

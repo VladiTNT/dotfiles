@@ -9,8 +9,6 @@ vim.pack.add({
 
     -- Catppuccin Theme --
     'https://github.com/catppuccin/nvim',
-    -- Lsp Config --
-    'https://github.com/neovim/nvim-lspconfig',
     -- Lualine --
     'https://github.com/nvim-lualine/lualine.nvim',
 })
