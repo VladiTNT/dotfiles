@@ -101,8 +101,8 @@ layout {
   // Window border
   border {
     width 2
-    active-color "#ffffff"
-    inactive-color "#aaaaaa"
+    active-gradient from="#00ffaa" to="#00ffff" angle=135 relative-to="workspace-view"
+    inactive-gradient from="#dddddd" to="#404040" angle=135 relative-to="workspace-view"
     urgent-color "#ffaa00"
   }
 
@@ -143,11 +143,6 @@ binds {
   Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "sddm"; }
   // Terminal
   Ctrl+Alt+Z hotkey-overlay-title="Terminal" { spawn "alacritty"; }
-  // Web Browser
-  Ctrl+Alt+B hotkey-overlay-title="Web Browser" { spawn "firefox"; }
-  // File Managers
-  Ctrl+Alt+F hotkey-overlay-title="Files" { spawn "nautilus"; }
-
 
   // Audio binds
   XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }

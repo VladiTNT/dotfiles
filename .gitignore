@@ -1,2 +1,4 @@
-# Ignore
+# Ignores
+
+# Ignore neovim package lock
 .config/nvim/nvim-pack-lock.json
