@@ -22,69 +22,71 @@ save_to_clipboard = true
 [mouse]
 hide_when_typing = true
 
-# Eldritch cthuluhu theme
+# Dracula theme
 [colors.primary]
-background = "#212337"
-foreground = "#ebfafa"
-dim_foreground = "#7081d0"
-bright_foreground = "#ebfafa"
+
+background = "#282a36"
+foreground = "#f8f8f2"
+bright_foreground = "#ffffff"
 
 [colors.cursor]
-text = "#212337"
-cursor = "#f7c67f"
+
+text = "#282a36"
+cursor = "#f8f8f2"
 
 [colors.vi_mode_cursor]
-text = "#212337"
-cursor = "#a48cf2"
 
-[colors.search.matches]
-foreground = "#212337"
-background = "#7081d0"
-
-[colors.search.focused_match]
-foreground = "#212337"
-background = "#f7c67f"
-
-[colors.footer_bar]
-foreground = "#212337"
-background = "#7081d0"
-
-[colors.hints.start]
-foreground = "#212337"
-background = "#f1fc79"
-
-[colors.hints.end]
-foreground = "#212337"
-background = "#7081d0"
+text = "CellBackground"
+cursor = "CellForeground"
 
 [colors.selection]
-text = "#212337"
-background = "#323449"
+
+text = "CellForeground"
+background = "#44475a"
 
 [colors.normal]
-black = "#454759"
-red = "#f16c75"
-green = "#37f499"
-yellow = "#f1fc79"
-blue = "#7081d0"
-magenta = "#a48cf2"
-cyan = "#04d1f9"
-white = "#f0f3f4"
+
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
 
 [colors.bright]
-black = "#5b5c66"
-red = "#fb5b66"
-green = "#38ff9f"
-yellow = "#fff952"
-blue = "#5b73dc"
-magenta = "#8a69f7"
-cyan = "#0ad6ff"
-white = "#ebfafa"
 
-[[colors.indexed_colors]]
-index = 16
-color = "#f7c67f"
+black = "#6272a4"
+red = "#ff6e6e"
+green = "#69ff94"
+yellow = "#ffffa5"
+blue = "#d6acff"
+magenta = "#ff92df"
+cyan = "#a4ffff"
+white = "#ffffff"
 
-[[colors.indexed_colors]]
-index = 17
-color = "#f7c67f"
+[colors.search.matches]
+
+foreground = "#44475a"
+background = "#50fa7b"
+
+[colors.search.focused_match]
+
+foreground = "#44475a"
+background = "#ffb86c"
+
+[colors.footer_bar]
+
+background = "#282a36"
+foreground = "#f8f8f2"
+
+[colors.hints.start]
+
+foreground = "#282a36"
+background = "#f1fa8c"
+
+[colors.hints.end]
+
+foreground = "#f1fa8c"
+background = "#282a36"

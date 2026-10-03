@@ -10,6 +10,6 @@ require('config.autocomplete')
 require('config.pack')
 
 -- Plugins --
-require('plugins.eldritch')
+require('plugins.dracula')
 require('plugins.lualine')
 require('plugins.highlight-colors')
