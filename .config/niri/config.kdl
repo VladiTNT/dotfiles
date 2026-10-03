@@ -101,9 +101,9 @@ layout {
   // Window border
   border {
     width 2
-    active-gradient from="#00ffaa" to="#00ffff" angle=135 relative-to="workspace-view"
-    inactive-gradient from="#dddddd" to="#404040" angle=135 relative-to="workspace-view"
-    urgent-color "#ffaa00"
+    active-gradient from="#37f499" to="#04d1f9" angle=135 relative-to="workspace-view"
+    inactive-gradient from="#ebfafa" to="#5b5c66" angle=135 relative-to="workspace-view"
+    urgent-color "#fb5b66"
   }
 
   // NO Focus ring
@@ -140,7 +140,7 @@ binds {
   // App Launcher
   Alt+Space hotkey-overlay-title="Launcher" { spawn "fuzzel"; }
   // Lockscreen
-  Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "sddm"; }
+  Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "gdm"; }
   // Terminal
   Ctrl+Alt+Z hotkey-overlay-title="Terminal" { spawn "alacritty"; }
 

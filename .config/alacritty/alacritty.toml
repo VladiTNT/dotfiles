@@ -22,69 +22,69 @@ save_to_clipboard = true
 [mouse]
 hide_when_typing = true
 
-# Catpuccin macchiato theme
+# Eldritch cthuluhu theme
 [colors.primary]
-background = "#24273a"
-foreground = "#cad3f5"
-dim_foreground = "#8087a2"
-bright_foreground = "#cad3f5"
+background = "#212337"
+foreground = "#ebfafa"
+dim_foreground = "#7081d0"
+bright_foreground = "#ebfafa"
 
 [colors.cursor]
-text = "#24273a"
-cursor = "#f4dbd6"
+text = "#212337"
+cursor = "#f7c67f"
 
 [colors.vi_mode_cursor]
-text = "#24273a"
-cursor = "#b7bdf8"
+text = "#212337"
+cursor = "#a48cf2"
 
 [colors.search.matches]
-foreground = "#24273a"
-background = "#a5adcb"
+foreground = "#212337"
+background = "#7081d0"
 
 [colors.search.focused_match]
-foreground = "#24273a"
-background = "#a6da95"
+foreground = "#212337"
+background = "#f7c67f"
 
 [colors.footer_bar]
-foreground = "#24273a"
-background = "#a5adcb"
+foreground = "#212337"
+background = "#7081d0"
 
 [colors.hints.start]
-foreground = "#24273a"
-background = "#eed49f"
+foreground = "#212337"
+background = "#f1fc79"
 
 [colors.hints.end]
-foreground = "#24273a"
-background = "#a5adcb"
+foreground = "#212337"
+background = "#7081d0"
 
 [colors.selection]
-text = "#24273a"
-background = "#f4dbd6"
+text = "#212337"
+background = "#323449"
 
 [colors.normal]
-black = "#494d64"
-red = "#ed8796"
-green = "#a6da95"
-yellow = "#eed49f"
-blue = "#8aadf4"
-magenta = "#f5bde6"
-cyan = "#8bd5ca"
-white = "#b8c0e0"
+black = "#454759"
+red = "#f16c75"
+green = "#37f499"
+yellow = "#f1fc79"
+blue = "#7081d0"
+magenta = "#a48cf2"
+cyan = "#04d1f9"
+white = "#f0f3f4"
 
 [colors.bright]
-black = "#5b6078"
-red = "#ed8796"
-green = "#a6da95"
-yellow = "#eed49f"
-blue = "#8aadf4"
-magenta = "#f5bde6"
-cyan = "#8bd5ca"
-white = "#a5adcb"
+black = "#5b5c66"
+red = "#fb5b66"
+green = "#38ff9f"
+yellow = "#fff952"
+blue = "#5b73dc"
+magenta = "#8a69f7"
+cyan = "#0ad6ff"
+white = "#ebfafa"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#f5a97f"
+color = "#f7c67f"
 
 [[colors.indexed_colors]]
 index = 17
-color = "#f4dbd6"
+color = "#f7c67f"
