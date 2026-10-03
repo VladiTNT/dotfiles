@@ -138,7 +138,7 @@ binds {
   // Help menu
   Mod+H { show-hotkey-overlay; }
   // App Launcher
-  Alt+Space hotkey-overlay-title="Launcher" { spawn "fuzzel"; }
+  Mod+Space hotkey-overlay-title="Launcher" { spawn "fuzzel"; }
   // Lockscreen
   Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "gdm"; }
   // Terminal
@@ -161,7 +161,7 @@ binds {
   XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "--class=backlight" "set" "10%-"; }
 
   // Overview
-  Mod+Space repeat=false { toggle-overview; }
+  Mod+Tab repeat=false { toggle-overview; }
 
   // Close window
   Mod+Q repeat=false { close-window; }

@@ -7,8 +7,8 @@ vim.pack.add({
     -- Dependencies --
     'https://github.com/nvim-tree/nvim-web-devicons',
 
-    -- Catppuccin Theme --
-    'https://github.com/catppuccin/nvim',
+    -- Eldritch Theme --
+    'https://github.com/eldritch-theme/eldritch.nvim',
     -- Lualine --
     'https://github.com/nvim-lualine/lualine.nvim',
     -- Hightlight Colors --
