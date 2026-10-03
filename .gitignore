@@ -1,4 +1,25 @@
-# Ignores
+# Ignore Everything
+*
+
+# Allow .gitignore
+!.gitignore
+
+# Allow examples folder
+!examples
+
+# Allow root
+!README.md
+!.bashrc
+!.stow-local-ignore
+
+# Allow dotfiles located in .config
+!.config/alacritty/
+!.config/fastfetch/
+!.config/nvim/
+!.config/fuzzel/
+!.config/niri/
+!.config/noctalia/
+
 
 # Ignore neovim package lock
 .config/nvim/nvim-pack-lock.json

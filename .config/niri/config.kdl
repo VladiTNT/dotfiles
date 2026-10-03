@@ -140,7 +140,7 @@ binds {
   // App Launcher
   Mod+Space hotkey-overlay-title="Launcher" { spawn "fuzzel"; }
   // Lockscreen
-  Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "gdm"; }
+  Ctrl+Alt+Q hotkey-overlay-title="Lockscreen" { spawn "loginctl lock-session"; }
   // Terminal
   Ctrl+Alt+Z hotkey-overlay-title="Terminal" { spawn "alacritty"; }
 
