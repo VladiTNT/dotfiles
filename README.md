@@ -15,8 +15,8 @@ stow .
 ### Alacritty, FastFetch, Bash
 <img src="examples/terminal.png">
 
-### Noctalia
-<img src="examples/noctalia.png">
+### Noctalia desktop
+<img src="examples/desktop.png">
 
 ### Neovim
 <img src="examples/neovim.png">
