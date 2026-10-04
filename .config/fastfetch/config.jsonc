@@ -1,0 +1,14 @@
+{
+  "logo": {
+    "type": "small"
+  },
+  "modules": [
+    "os",
+    "kernel",
+    "uptime",
+    "packages",
+    "memory",
+    "shell",
+    "terminal"
+  ]
+}
